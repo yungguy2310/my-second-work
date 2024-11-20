@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>my class work</title>
+</head>
+<body>
+    <h1><b><u>STUDENT REGISTRATION FORM</u></b></h1>
+    <section>
+    <form>
+        FIRSTNAME&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="FIRSTNAME"maxlength="30"><span>(max 30 characters a-z and A-Z)</span>
+        <br><br>LASTNAME&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="LASTNAME"maxlength="30"><span>(max 30 characters and A-Z)</span>
+        <br><br>DATE OF BIRTH&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="date">
+         <br><br>EMAIL ID&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" name="EMAIL">
+         <br><br>MOBILE NUMBER&nbsp;&nbsp;<input type="number"><span>(10 digit number)</span>
+         <br><br>GENDER&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio"name="GENDER"value="male">male <input type="radio" name="GENDER" value="female">female
+         <br><br>ADDRESS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<textarea rows="2"cols="20" name="comment"></textarea>
+         <br><br>CITY&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="CITY" name="CITY"maxlength="30"><span>(max 30 characters a-z andA-Z)</span>
+        <br><br>PIN CODE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number"name="PINCODE"maxlength="6" minlength="6"><span>(6 digits)</span>
+        <br><br>STATE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"name="STATE"maxlength="30"><span>(30 characters a-z and A-Z)</span>
+        <br><br>COUNTRY&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"name="COUNTRY"maxlength="50">
+        <br><br>HOBBIES&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;drawing<input type="checkbox"name="drawing">singing <input type="checkbox" name="singing">dancing<input type="checkbox"name="dancing">sketching <input type="checkbox" name="sketching">others <input type="checkbox" name="others"><input type="text" name="others" id="">
+        <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Certificate issuer <input type="text" name="Certificate issuer">upload Certificate<!--file input {image}--><input type="file" name="fileupload" accept="image/*" />
+        <br><br>QUALIFICATION&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<table>
+            <thead>
+                <tr>
+                    <th><b>SI.No.Examination</b></th>
+                    <th><b>Board</b></th>
+                    <th><b>Percentage</b></th>
+                    <th>Year of passing</th>
+                </tr>
+                <tr>
+                    <td>1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Class X</td><br>
+                    <td><input type="text"name="Class X"></td><br>
+                    <td><input type="text" name="Class X"></td><br>
+                    <td><input type="text" name="Class X"></td><br>                      
+                </tr>
+                <tr>
+                    <td>2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Class XII</td>
+                    <td><input type="text" name="Class XII"></td>
+                    <td><input type="text" name="Class XII"></td>
+                    <td><input type="text" name="Class XII"></td>
+                </tr>
+                <tr>
+                    <td>3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Graduation</td>
+                    <td><input type="text" name="Graduation"></td>  
+                    <td><input type="text" name="Graduation"></td>
+                    <td><input type="text" name="Graduation"></td>
+                </tr>
+                <tr>
+                    <td>4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Masters</td>
+                    <td><input type="text" name="Masters"></td>
+                    <td><input type="text" name="Masters"></td>
+                    <td><input type="text" name="Masters"></td>
+                </tr>
+                <tr>
+                    <td>5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Course Applied for</td>
+                    <td><input type="text" name="Course Applied for"></td>
+                    <td><input type="text" name="Course Applied fof"></td>
+                    <td><input type="text" name="Course Applied for"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>(10 char max)</td>
+                    <td>(upto 2 decimals)</td>
+                </tr>
+        </table>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="submit">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="reset" value="reset">
+    </form>
+    </section>
+    <style>
+        h1{
+            color: blue;text-align: center;
+        }
+        form{
+            text-align:left ;
+        }
+        section{
+            background-color:rgba(176, 224, 230, 0.297);
+        }
+    </style>
+</body>
+</html>
